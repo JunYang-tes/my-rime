@@ -1,0 +1,4 @@
+patch:
+    schema_list:
+        - schema: zrm2000 # 自然码
+        - schema: cqlb_weightcode #二笔

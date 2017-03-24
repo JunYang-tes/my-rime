@@ -1,0 +1,179 @@
+
+#Yield by rime word-lib tool
+---
+name: erbi-office.dict
+version: '0.1'
+sort: original
+columns:
+  - text
+  - code
+encoder:
+  exclude_patterns:
+    - ^i.*$
+  rules:
+    - length_equal: 2
+      formula: AaAbBaBb
+    - length_equal: 3
+      formula: AaAbBaCa
+    - length_in_range:
+        - 4
+        - 10
+      formula: AaBaCaZa
+
+...
+
+白板	bwbx
+白板笔	bwbb
+板擦	bxcu
+办公台	b,gt
+报表	bubh
+报事贴	bust
+保险柜	bfxg
+保险柜	bfxj
+笔袋	bqdf
+笔记本	bqjb
+笔架	bqj,
+笔筒	bqtq
+便笺	bfjq
+便笺	pfjq
+彩喷纸	crpz
+裁纸刀	cjzd
+裁纸机	cjzj
+尺子	cnzm
+储物柜	cfug
+储物柜	cfuj
+储物柜	cfwg
+储物柜	cfwj
+传真机	cfzj
+传真机	zfzj
+传真纸	cfzz
+传真纸	zfzz
+磁性板	ckxb
+大班椅	dkby
+大班桌	dkbz
+打孔机	dukj
+大头针	dktz
+打印机	duyj
+打字机	duzj
+档案袋	dxad
+刀削	d,xf
+地球仪	dvqy
+点钞机	dacj
+电话本	dghb
+电脑桌	dgnz
+订书机	dpsj
+订书针	dpsz
+放大镜	fydj
+粉笔	fibq
+分光仪	frgy
+复写纸	fqxz
+复印机	fqyj
+复印纸	fqyz
+钢笔	gzbq
+固体胶	ggtj
+光度计	gfdj
+光谱仪	gfpy
+过塑机	gjsj
+号码机	hlmj
+黑板	hgbx
+画笔	hzbq
+画布	hzbk
+画框	hzkx
+画纸	hzz/
+幻灯机	h/dj
+会客椅	hfky
+会客椅	kfky
+会客椅	ufky
+绘图机	h/tj
+绘图纸	h/tz
+回形针	hgxz
+会议桌	hfyz
+会议桌	kfyz
+会议桌	ufyz
+活页本	hcyb
+记号笔	jphb
+记事本	jpsb
+集邮簿	jfyb
+讲台	jpt.
+教鞭	jjbj
+胶卷	jdji
+胶片	jdpw
+胶水	jdsc
+镜头	jzto
+经纬仪	j/wy
+卷笔	jibq
+考勤机	kjqj
+课桌椅	kpzy
+刻字机	kyzj
+棱镜	lxjz
+练习本	l/xb
+绿板	l/bx
+滤光片	lcgp
+滤色片	lcsp
+毛笔	mqbq
+美工刀	migd
+名片盒	mtph
+墨盒	mghf
+墨水	mgsc
+墨砚	mgyk
+屏风	bnft
+屏风	pnft
+凭证	pfzp
+铅笔	qzbq
+铅笔	yzbq
+三脚架	shjj
+扫描仪	sumy
+色差计	stcj
+色带	stdj
+晒图机	sstj
+摄影棚	suyp
+收银纸	smyz
+书包	s/bt
+书立	s/ly
+书写纸	s/xz
+水准仪	sczy
+塑封机	sifj
+算盘	sqpe
+碎纸机	skzj
+太阳镜	tkyj
+碳带	tkdj
+碳粉	tkfi
+提款箱	dukx
+提款箱	tukx
+通讯录	t.xl
+透镜	tqjz
+投影机	tuyj
+图钉	tgdz
+望远镜	wyyj
+文件柜	wyjg
+文件柜	wyjj
+文件夹	wyjj
+文具盒	wyjh
+硒鼓	xkgj
+线圈本	x/jb
+线圈本	x/qb
+显微镜	xswj
+相册	xxct
+橡皮擦	xxpc
+相纸	xxz/
+信封	xffv
+修正带	xfud
+修正带	xfzd
+修正液	xfuy
+修正液	xfzy
+宣纸	xoz/
+学生床	xosc
+验钞机	y/cj
+眼镜布	ygjb
+眼镜盒	ygjh
+夜视仪	yysy
+荧光笔	ybgb
+圆规	yggh
+圆珠笔	ygzb
+展示台	znst
+帐簿	zgbq
+折射仪	susy
+折射仪	zusy
+职员椅	zjyy
+中性笔	zgxb
+装订机	zydj

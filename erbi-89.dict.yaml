@@ -1,0 +1,149 @@
+
+#Yield by rime word-lib tool
+---
+name: erbi-89.dict
+version: '0.1'
+sort: original
+columns:
+  - text
+  - code
+encoder:
+  exclude_patterns:
+    - ^i.*$
+  rules:
+    - length_equal: 2
+      formula: AaAbBaBb
+    - length_equal: 3
+      formula: AaAbBaCa
+    - length_in_range:
+        - 4
+        - 10
+      formula: AaBaCaZa
+
+...
+
+巴丹吉林沙漠旅游节	bdjyj
+车公诞	c;gd
+车公诞	j;gd
+重阳节	cqyj
+重阳节	ucyj
+重阳节	zqyj
+春节	chjb
+碘缺乏病防治日	dqfzr
+读者节	dpzj
+端午节	dywj
+防治沙漠化和干旱日	fzshr
+父亲节	frqj
+妇幼节	f,yj
+感恩节	gkej
+姑娘节	g,nj
+光棍节	gfgj
+广元女儿节	gynej
+国际爱牙日	gjayr
+国际奥林匹克日	gjakr
+国际博物馆日	gjbgr
+国际臭氧层保护日	gjchr
+国际臭氧层保护日	gjxhr
+国际大学生节	gjdsj
+国际儿童节	gjetj
+国际妇女节	gjfnj
+国际护士日	gjhsr
+国际家庭日	gjjtr
+国际减轻自然灾害日	gjjhr
+国际警察日	gjjcr
+国际劳动节	gjldj
+国际聋人节	gjlrj
+国际旅游电影节	gjlyj
+国际盲人节	gjmrj
+国际母亲节	gjmqj
+国际牛奶日	gjnnr
+国际气象节	gjqxj
+国际扫盲日	gjsmr
+国际生物多样性日	gjsxr
+国际消费者权益日	gjxyr
+国际音乐日	gjylr
+国际音乐日	gjyyr
+国际助残日	gjzcr
+国际住房日	gjzfr
+国际住房日	gjzpr
+国庆节	ggqj
+寒食节	hosj
+火把节	hibj
+建军日	jnjr
+教师节	jjsj
+姐妹节	j,mj
+开年	khnq
+开斋节	khzj
+抗日战争纪念日	krznr
+抗日战争胜利日	krzlr
+腊八节	ldbj
+腊八节	xdbj
+联合国日	lggr
+联合国日	lhgr
+妈祖生辰	mzsc
+毛泽东诞生	mzdds
+美食节	misj
+母亲节	m/qj
+女儿节	n,ej
+女神节	n,sj
+泼水节	pcsj
+乞巧节	qqqj
+七夕情人节	qxqrj
+钱江观潮节	qjgcj
+敲锣儿节	qlej
+清明节	qcmj
+情人节	qorj
+全国爱耳日	qgaer
+全国爱眼日	qgayr
+全国高血压日	qggyr
+全国土地日	qgtdr
+全国学生营养日	qgxyr
+全国助残日	qgzcr
+人日	rfrs
+三峡国际旅游节	sxgyj
+圣诞节	s.dj
+世界艾滋病日	sjabr
+世界艾滋病日	sjybr
+世界残疾人日	sjcrr
+世界地球日	sjdqr
+世界电信日	sjdxr
+世界动物日	sjdur
+世界动物日	sjdwr
+世界儿歌日	sjegr
+世界防治结核病日	sjfbr
+世界红十字日	sjgzr
+世界红十字日	sjhzr
+世界环境日	sjhjr
+世界建筑日	sjjzr
+世界禁毒日	sjjdr
+世界粮食日	sjlsr
+世界旅游日	sjlyr
+世界气象日	sjqxr
+世界人口日	sjrkr
+世界森林日	sjslr
+世界水日	sjsr
+世界糖尿病日	sjtbr
+世界卫生日	sjwsr
+世界无烟日	sjwyr
+世界消除贫困日	sjxkr
+世界邮政日	sjyzr
+世界足球日	sjzqr
+孙中山诞辰	szsdc
+桃花节	txhj
+添仓节	tccj
+现代世界足球诞生日	xdssr
+仙女节	xfnj
+消防宣传日	xfxcr
+消防宣传日	xfxzr
+娅拜节	y,bj
+愚人节	ygrj
+元旦	yhds
+元宵节	yhxj
+植树节	zxsj
+中国共产党诞生纪念日	zggnr
+中国记者日	zgjzr
+中国青年节	zgqnj
+中国少先队建队日	zgsdr
+中秋节	zgqj
+中元节	zgyj
+走麦罢	zvmb
